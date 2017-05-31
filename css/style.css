@@ -94,6 +94,13 @@ ul, li {
 	left: 60px;
 	top: 30px;
 	z-index: 10000;
+	transition: 0.61s;
+}
+
+.menu-btn img:hover{
+	transform: rotate(90deg);
+	transition: 0.51s;
+	outline: 0;
 }
 
 .pushy-link {
