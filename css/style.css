@@ -54,7 +54,7 @@ ul, li {
 }
 
 .pushy-submenu{
-
+  transition: 0.4s;
 }
 
 .pushy-submenu:hover{
@@ -98,6 +98,7 @@ ul, li {
 
 .pushy-link {
 	margin-left: 20px;
+	transition: 0.9s;
 }
 
 .pushy-link:hover{
