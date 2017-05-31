@@ -83,6 +83,7 @@ ul, li {
 	position: absolute;
 }
 
+
 .menu-btn img{
 	width: 37px;
 	height: 41px;
@@ -94,7 +95,7 @@ ul, li {
 	left: 60px;
 	top: 30px;
 	z-index: 10000;
-	transition: 0.61s;
+	transition: 1s;
 }
 
 .menu-btn img:hover{
@@ -221,7 +222,7 @@ ul, li {
 	width: 100%;
 	font-size: 16px;
 	padding-left: 8px;
-	border-radius: 9px 9px  0 0;
+	border-radius: 9px;
 }
 
 .user-info li:nth-child(2) > ul > li:hover{
