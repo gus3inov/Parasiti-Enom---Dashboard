@@ -42,6 +42,16 @@ a {
 	font-size: 25px;
 	color:#95A0AA;
 	padding: 0 12px;
+	text-shadow: 10px -2px 40px #fff, -5px -2px 30px;
+	transition: 1s;
+	color: #fff;
+}
+
+.pushy-left h3:hover{
+	color: #fff;
+	cursor: pointer;
+	transition: 2s;
+	text-shadow: none;
 }
 
 ul, li {
