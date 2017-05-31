@@ -244,3 +244,37 @@ ul, li {
 	min-width: 150px;
 }
 
+.middle-footer {
+	text-align: center;
+}
+
+.hexagon:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 4px solid #5FAEE3;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    top: -4px;
+    right: 0;
+}
+
+.hexagon{
+    display: inline-block;
+    margin-top: 4px;
+    width: 16px;
+    height: 9px;
+    background-color: #5FAEE3;
+    position: relative;
+}
+
+.hexagon:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    border-top: 4px solid #5FAEE3;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
