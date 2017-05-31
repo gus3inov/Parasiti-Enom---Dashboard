@@ -46,10 +46,12 @@
 
 .pushy-open-left #container,
 .pushy-open-left .push {
-  -webkit-transform: translate3d(200px, 0, 0);
+  -webkit-transform: translate3d(200px, -20px, 0);
   -ms-transform: translate3d(200px, 0, 0);
-  transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, -10px, 0);
+  transition: 0.21s;
 }
+
 
 .pushy-right {
   -webkit-transform: translate3d(200px, 0, 0);
