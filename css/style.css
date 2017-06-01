@@ -103,7 +103,7 @@ ul, li {
 	color: #fff;
 	position: fixed;
 	left: 60px;
-	top: 30px;
+	top: 20px;
 	z-index: 10000;
 	transition: 1s;
 }
