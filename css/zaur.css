@@ -316,11 +316,6 @@ body {
 }
 
 .big_iconsContainer {
-      width: 1330px;
       justify-content: space-between;
-}
-
-.information_Container {
       width: 1330px;
-      justify-content: space-between;
 }
