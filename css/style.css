@@ -318,3 +318,27 @@ ul, li {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
 }
+
+/*Относящиеся к графикам*/
+.diagrams{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.statistics{
+ 	background-color: #fff;
+ 	max-width: 750px;
+}
+
+.caption{
+	padding-left: 25px;
+	line-height: 76px;
+	font-size: 18px;
+	color: #777777;
+	height: 76px;
+	background-color: #e5e5e5;
+}
+.chart{
+	margin: 0 auto;
+}
+/*-----*/
