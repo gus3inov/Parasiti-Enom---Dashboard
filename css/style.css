@@ -245,6 +245,7 @@ ul, li {
 }
 
 .middle-footer {
+	margin: 30px 0;
 	text-align: center;
 }
 
@@ -321,7 +322,7 @@ ul, li {
 
 /*Относящиеся к графикам*/
 .diagrams{
-	margin-top: 20px;
+	margin-top: 55px;
 	margin-left: 10px;
 }
 
