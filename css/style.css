@@ -45,6 +45,7 @@ a {
 	text-shadow: 10px -2px 40px #fff, -5px -2px 30px;
 	transition: 1s;
 	color: #fff;
+	margin: 25px 0;
 }
 
 .pushy-left h3:hover{
