@@ -1,12 +1,13 @@
 $(document).ready(function(){
   
 
-   
+    $('.map-popup').magnificPopup({
+      tClose: 'Close (Esc)',
+        removalDelay: 900
+    });
 
-});
 
-// The begining of  CHART
-	var image1 = document.getElementById('source1');
+var image1 = document.getElementById('source1');
 	var image2 = document.getElementById('source2');
 	var ctx = document.getElementById("myChart");
 
@@ -92,5 +93,10 @@ $(document).ready(function(){
 		}
 	});
 
+
+});
+
+// The begining of  CHART
+	
 
 	// END CHART
