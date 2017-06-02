@@ -13,7 +13,7 @@ a:hover {
 }
 
 .wrap__container {
-      margin-left: 80px;
+      margin-left: 90px;
 }
 
 /*Контейнер с огромными иконками*/
@@ -34,8 +34,8 @@ a:hover {
 .tiles-item {
       transition: .5s ease-in;
       display: block;
-      height: 256px;
-      width: 266px;
+      height: 236px;
+      width: 246px;
       text-align: center;
       color: white;
       font-family: 'Quark-Bold';
@@ -125,8 +125,9 @@ a:hover {
 
 .text-content {
       background: #5faee3;
-      height: 100%;
+      height: 92%;
       padding: 30px 0;
+      margin-left: 30px;
 }
 
 .text-content p{
@@ -146,8 +147,8 @@ a:hover {
       font-family: 'Quark-Bold';
       font-size: 1.2em;
       letter-spacing: 1.5px;
-      width: 422px;
-      height: 380px;
+      width: 370px;
+      height: 348px;
       color: white;
       background-image: url(../img/bg_obloko.png);
       -webkit-background-size: cover;
@@ -155,7 +156,7 @@ a:hover {
 }
 
 .text__container {
-      width: 422px;
+      width: 370px;
       height: 380px;
 }
 
@@ -165,14 +166,14 @@ a:hover {
 }
 
 .beetwen_text {
-      margin-top: 14px;
+      margin-top: -3px;
       display: flex;
       justify-content: space-between;
 }
 
 .btn_map {
       text-align: right;
-      padding: 15px;
+      padding: 8px;
       color: white;
       background: #5faee3;
 }
@@ -241,10 +242,11 @@ a:hover {
 .chec_container {
       background: #fff;
       padding: 20px;
-      width: 422px;
-      height: 380px;
+      width: 370px;
+      height: 350px;
       display: flex;
       flex-direction: column;
+      margin-left: 20px;
 }
 
 .chec-inp {
@@ -265,7 +267,7 @@ a:hover {
       margin-top: -20px;
       margin-bottom: 15px;
       margin-left: -20px;
-      width: 422px;
+      width: 370px;
       height: 54px;
 }
 
@@ -287,8 +289,8 @@ a:hover {
       font-size: 2em;
       text-align: center;
       outline: 0;
-      width: 37px;
-      height: 37px;
+      width: 30px;
+      height: 30px;
       line-height: 20px;
       color: white;
       border: none;
@@ -310,11 +312,6 @@ body {
 
 
 .cloud_Container {
-        width: 1330px;
         justify-content: space-between;
 }
 
-.big_iconsContainer {
-      justify-content: space-between;
-      width: 1330px;
-}
