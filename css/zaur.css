@@ -144,17 +144,19 @@ a:hover {
       font-family: 'Quark-Bold';
       font-size: 1.2em;
       letter-spacing: 1.5px;
-      width: 370px;
-      height: 348px;
+      width: 380px;
+      height: 358px;
       color: white;
       background-image: url(../img/bg_obloko.png);
       -webkit-background-size: cover;
       background-size: cover;
+      margin-left: 30px;
 }
 
 .text__container {
-      width: 370px;
-      height: 380px;
+      width: 380px;
+      height: 390px;
+      margin-left: 30px;
 }
 
 .bg_obloko {
@@ -163,7 +165,9 @@ a:hover {
 }
 
 .beetwen_text {
-      margin-top: -3px;
+      margin-top: 6px;
+         display: flex;
+      justify-content: space-between;
 }
 
 .btn_map {
@@ -237,11 +241,11 @@ a:hover {
 .chec_container {
       background: #fff;
       padding: 20px;
-      width: 370px;
-      height: 350px;
+      width: 380px;
+      height: 360px;
       display: flex;
       flex-direction: column;
-      margin-left: 20px;
+      margin-left: 5px;
 }
 
 .chec-inp {
