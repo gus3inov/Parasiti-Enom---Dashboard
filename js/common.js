@@ -5,6 +5,10 @@ $(document).ready(function(){
       tClose: 'Close (Esc)',
         removalDelay: 900
     });
+ $('.wonder_icon').magnificPopup({
+      tClose: 'Close (Esc)',
+        removalDelay: 900
+    });
 
 
 var image1 = document.getElementById('source1');
