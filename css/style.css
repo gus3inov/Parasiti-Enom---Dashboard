@@ -328,18 +328,12 @@ li {
 
 .diagrams {
     margin-top: 55px;
-    margin-left: 15px;
-    height: 510px;
-    width: 1230px; /* взято значение полосы Visitors info*/
+    margin-left: 10px;
 }
 
 .statistics {
     background-color: #fff;
-    width: 750px; 
-    height: 510px;
-    display: inline-block;
-    padding: 0;
-    margin-right: 40px;
+    width: 830px;
 }
 
 .caption {
@@ -351,29 +345,10 @@ li {
     background-color: #e5e5e5;
 }
 
-.chart-line{
+.chart {
     margin: 0 auto;
-    width: 700px;
-    height: 440px;
 }
-.cloud-storage{
-    width:440px;
-    display: inline-block;
-    background-color: #fff;
-    padding: 0;
-}
-.chart-doughnut{
-    box-sizing: border-box;
-    width:340px;
-    height: 340px;
-    margin: 0 auto;    
-}
-.cloud-storage-footer{
-    height: 96px;
-    line-height: 100px;
-    background-color: #5faee3;
-    color: #fff;
-}
+
 
 /*-----*/
 
