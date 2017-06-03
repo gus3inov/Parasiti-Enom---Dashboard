@@ -354,4 +354,57 @@ li {
 
 #map_popup{
     margin: 200px 100px;
+<<<<<<< HEAD
 }
+=======
+}
+
+#wonder-icon{
+    margin: 200px 100px;
+}
+
+svg{
+  width: 1000px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.sf-menu li {background-color: transparent !important;}
+
+
+.hexagon-img {
+    overflow: hidden;
+    transform: rotate(120deg);
+    cursor: pointer;
+    margin-top: 10px;
+    }
+.hexagon-in1 {
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-60deg);
+    }
+.hexagon-in2 {
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/user/mini-photo.jpg);
+    transform: rotate(-60deg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    transition: 1s;
+    }
+.hexagon-in2:hover {
+    transition: 1s;
+    transform: rotate(-420deg);
+    background-image: url(../img/user/user.png);
+    }
+
+
+.hexagon2 {
+    width: 30px;
+    height: 30px;
+    }
+>>>>>>> 679c987... Анимация с картинкой юзера
