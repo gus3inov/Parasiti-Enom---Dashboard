@@ -10,6 +10,25 @@ $(document).ready(function(){
         removalDelay: 900
     });
 
+$('.items').tooltipster({
+	animation: 'slide',
+	theme: 'tooltipster-punk'
+});
+
+$('.btn_map').tooltipster({
+	animation: 'grow',
+	theme: 'tooltipster-punk'
+});
+
+
+$('.title__input').tooltipster({
+	animation: 'fall',
+	animationDuration: 1000,
+	trigger: 'click',
+	theme: 'tooltipster-punk'
+});
+
+
 
 var image1 = document.getElementById('source1');
 	var image2 = document.getElementById('source2');
