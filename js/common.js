@@ -119,7 +119,81 @@ var image1 = document.getElementById('source1');
 
 });
 
-// The begining of  CHART
-	
+    // chart-doughnut
+var ctx = document.getElementById("doughnut");
+var doughnut = new Chart(ctx, {
+  type: "doughnut",
+  data: {
+    datasets: [
+      {
+        data: [512, 140],
+        backgroundColor: ["#5faee3", "#eeeeee"],
+        borderColor: ["#5faee3", "#eeeeee"],
+        hoverBackgroundColor: ["#3297db", "#d2cece"]
+      }
+    ],
 
-	// END CHART
+    labels: ["Storage use", "Free space"]
+  },
+  options: {
+    cutoutPercentage: 70,
+    responsive: true,
+    layout: {
+      padding: {
+        left: 50,
+        right: 50,
+        // top: 30,
+        // bottom: 30
+      }
+    },
+    legend: {
+      display: false
+    },
+
+    animation: {
+      animateScale: true,
+      animateRotate: true
+    }
+  },
+  plugins: [
+    {
+      afterDatasetsDraw: function(chart, easing) {
+        var ctx = chart.ctx;
+        ctx.fillStyle = "#999999";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        var fontSize = 16;
+        ctx.font = Chart.helpers.fontString(
+          fontSize,
+          "normal",
+          "Helvetica Neue"
+        );
+        var padding = 15;
+        var meta = chart.getDatasetMeta(0);
+        var position1 = meta.data[0].tooltipPosition();
+
+        ctx.fillText(
+          chart.data.labels[0],
+          position1.x+ 45,
+          position1.y - fontSize / 2 - 180
+        );
+
+        var position2 = meta.data[1].tooltipPosition();
+
+        ctx.fillText(
+          chart.data.labels[1],
+          position2.x,
+          position2.y - fontSize / 2 - padding
+        );
+        var text_inside =
+          chart.data.datasets[0].data[1].toString() +
+          " / " +
+          chart.data.datasets[0].data[0].toString();
+        ctx.font = Chart.helpers.fontString(35, "normal", "Quark-Bold");
+        ctx.fillText(text_inside, 170, 150);
+        ctx.fillText("GB", 170, 150 + fontSize / 2 + 30);
+      }
+    }
+  ]
+});
+// end chart-doughnut
