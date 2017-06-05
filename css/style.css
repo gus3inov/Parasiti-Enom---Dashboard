@@ -328,12 +328,17 @@ li {
 
 .diagrams {
     margin-top: 55px;
-    margin-left: 10px;
+    margin-right: 30px;
+    width: 1230px;
+    height: 510px;
 }
 
 .statistics {
     background-color: #fff;
-    width: 830px;
+    width: 800px;
+    height: 510px;
+    margin-right: 30px;
+    padding: 0;
 }
 
 .caption {
@@ -345,10 +350,26 @@ li {
     background-color: #e5e5e5;
 }
 
-.chart {
-    margin: 0 auto;
-}
+.cloud-storage{
+    width:400px;
 
+    background-color: #fff;
+    padding: 0;
+}
+.chart-doughnut{
+    box-sizing: border-box;
+    width:340px;
+    height: 340px;
+    margin: 0 auto;  
+}
+.cloud-storage-footer{
+    height: 94px;
+    line-height: 100px;
+    background-color: #5faee3;
+    color: #fff;
+    padding-left: 25px;
+    font-size: 20px;
+}
 
 /*-----*/
 
