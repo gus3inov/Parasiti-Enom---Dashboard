@@ -108,12 +108,22 @@ li {
     top: 20px;
     z-index: 10000;
     transition: 1s;
+    border-radius: 50%;
 }
+
+@keyframes .menu-btn img {
+  0% {transform:rotate(-45deg)}
+  50%{transform:rotate(-135deg)}
+  100%{transform:rotate(-225deg)}
+}
+
 
 .menu-btn img:hover {
     transform: rotate(90deg);
     transition: 0.51s;
     outline: 0;
+    box-shadow:-7.56px -7.56px 0 0 rgba(248, 107, 79,.4),-10.387px 0 0 0 rgba(44, 62, 80,.4),-7.56px 7.56px 0 0 rgba(95, 174, 227,.4),0 10.387px 0 0 rgba(95, 174, 227,.3),7.56px 7.56px 0 0 rgba(248, 107, 79,.4),10.387px 0 0 0 rgba(44, 62, 80,.4),7.56px -7.56px 0 0 rgba(255, 206, 67,.4),0 -10.387px 0 0 rgba(44, 62, 80,.4);
+    animation: loader 2s infinite ease-in-out;
 }
 
 .pushy-link {
