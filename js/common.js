@@ -1,6 +1,8 @@
 $(document).ready(function(){
   
 
+  $('.items').animate
+
     $('.map-popup').magnificPopup({
       tClose: 'Close (Esc)',
         removalDelay: 900
@@ -215,3 +217,12 @@ var doughnut = new Chart(ctx, {
   ]
 });
 // end chart-doughnut
+
+$(window).load(function(){
+$('.items').animated("flipInY", "flipOutY");
+$('.statistics').animated("slideInLeft", "slideOutLeft");
+$('.cloud-storage').animated("slideInRight", "slideOutRight");
+$('.chec_container').animated("slideInLeft", "slideOutRight");
+$('.cen_container').animated("slideInLeft", "slideOutRight");
+$('.text__container').animated("slideInLeft", "slideOutRight");
+});
