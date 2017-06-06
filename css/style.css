@@ -432,9 +432,21 @@ svg{
     width: 30px;
     height: 30px;
     }
->>>>>>> 679c987... Анимация с картинкой юзера
-=======
+ 
+    .cloud-storage-footer i {
+    font-size: 40px;  
+    margin-left: 230px; 
+    transition: 1s;   
 }
->>>>>>> 3c7b417... Добавлена иконка)
 
 
+ .cloud-storage-footer:hover i{
+        transition: 1s;
+    color: #000;
+ }
+
+ .user-info__tooltip_templates{display: none; }
+
+  #user-info__tooltip_content {
+   padding: 5px;
+  }

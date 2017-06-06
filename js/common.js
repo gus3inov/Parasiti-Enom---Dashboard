@@ -17,17 +17,35 @@ $('.items').tooltipster({
 
 $('.btn_map').tooltipster({
 	animation: 'grow',
+	animationDuration: 600,
 	theme: 'tooltipster-punk'
 });
 
 
 $('.title__input').tooltipster({
 	animation: 'fall',
-	animationDuration: 1000,
+	animationDuration: 600,
 	trigger: 'click',
 	theme: 'tooltipster-punk'
 });
 
+$('.cloud-storage-footer').tooltipster({
+	animation: 'grow',
+	animationDuration: 600,
+	theme: 'tooltipster-punk'
+});
+
+$('.user-info__tooltip').tooltipster({
+    contentCloning: true,
+    trigger: 'click',
+    distance: 8,
+    maxWidth: 500,
+    arrow: true,
+    side: 'bottom',
+    contentAsHTML: true,
+    theme: 'tooltipster-punk'
+
+});
 
 
 var image1 = document.getElementById('source1');

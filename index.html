@@ -110,7 +110,12 @@
                             <div class="col-md-6">
                                 <ul class="active">
                                     <li>Activity</li>
-                                    <li>Notifications <a href=""><span>19</span></a></li>
+                                    <li class="user-info__tooltip" data-tooltip-content="#user-info__tooltip_content">Notifications <a href=""><span>19</span></a></li>
+                                    <div class="user-info__tooltip_templates">
+    <span id="user-info__tooltip_content">
+        <img src="img/user/user.png" width="30" height="30"/> <strong>You have 19 notifications ! </strong>
+    </span>
+</div>
                                 </ul>
                             </div>
                             <div class="col-md-6">
@@ -123,6 +128,7 @@
                                             <li>Activity</li>
                                         </ul>
                                     </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -196,7 +202,7 @@ Your stats on Freelance">
                         <div class="chart-doughnut">
                             <canvas id="doughnut"></canvas>
                         </div>
-                        <div class="cloud-storage-footer">Show my files</div>
+                        <div class="cloud-storage-footer" title="Check your files"><a href="">Show my files<i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
                     </div>
                 </div>
             </div>

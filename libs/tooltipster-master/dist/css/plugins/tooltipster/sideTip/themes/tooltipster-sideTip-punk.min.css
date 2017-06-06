@@ -2,6 +2,7 @@
     border-radius: 5px;
     border: none;
     border-bottom: 4px solid #5FAEE3;
+    border-right: 4px solid #5FAEE3;
     background: #2a2a2a
 }
 
@@ -19,7 +20,7 @@
 }
 
 .tooltipster-sidetip.tooltipster-punk.tooltipster-bottom .tooltipster-arrow-border {
-    border-bottom-color: #5FAEE3 
+    border-bottom-color: #2a2a2a
 }
 
 .tooltipster-sidetip.tooltipster-punk.tooltipster-left .tooltipster-arrow-border {
