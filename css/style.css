@@ -46,13 +46,44 @@ a {
     transition: 1s;
     color: #fff;
     margin: 25px 0;
+    transition: 1s;
+    animation: animateLOGO  8s infinite ease-in-out;
+}
+
+@keyframes animateLOGO{
+    0%{
+       text-shadow: 10px -2px 40px #fff, -5px -2px 30px;
+       color: #fff;
+    }
+    20%{
+        text-shadow: none;
+        color: #95A0AA;
+    }
+    40%{
+        text-shadow: 10px -2px 40px #fff, -5px -2px 30px;
+        color: #fff;
+    }
+    60%{
+        text-shadow: none;
+        color: #95A0AA;
+    }
+     80%{
+        text-shadow: 10px -2px 40px #fff, -5px -2px 30px;
+        color: #fff;
+    }
+      92%{
+    text-shadow: none;
+        color: #95A0AA;
+    }
+     100%{
+       text-shadow: 10px -2px 40px #fff, -5px -2px 30px;
+        color: #fff;
+    }
 }
 
 .pushy-left h3:hover {
-    color: #95A0AA;
     cursor: pointer;
     transition: 2s;
-    text-shadow: none;
 }
 
 ul,
