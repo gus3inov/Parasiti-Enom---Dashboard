@@ -226,4 +226,6 @@ $('.cloud-storage').animated("slideInRight", "slideOutRight");
 $('.chec_container').animated("slideInLeft", "slideOutRight");
 $('.cen_container').animated("slideInLeft", "slideOutRight");
 $('.text__container').animated("slideInLeft", "slideOutRight");
+$('.form-bottom__left').animated("zoomIn", "slideOutRight");
+$('.form-bottom__right').animated("zoomIn", "slideOutRight");
 });
