@@ -50,6 +50,8 @@ $('.user-info__tooltip').tooltipster({
 
 });
 
+
+
 $(".to-top__button").click(function(){
 $("body").animate({"scrollTop":0},"slow");
 });

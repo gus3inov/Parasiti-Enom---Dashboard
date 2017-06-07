@@ -295,11 +295,13 @@ a:hover {
     border-radius: 3px;
     transition: .4s;
     background: #5faee3;
+    animation: addPlus  2s infinite ease-in-out;
 }
 
 .btn_addList:hover {
     background: #45A4E3;
     transition: all 0.3s;
+    animation-play-state: paused;
 }
 
 body {

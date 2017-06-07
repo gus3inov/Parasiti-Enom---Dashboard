@@ -36,6 +36,17 @@
     float: left;
 }
 
+.tilesOne {
+	width: 100px;
+	height: 100px;	
+}
+
+.tileTwo {
+	width: 100px;
+	height: 100px;	
+}
+
+
 }
 
 /* Custom, iPhone Retina */

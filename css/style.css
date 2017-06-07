@@ -111,11 +111,6 @@ li {
     border-radius: 50%;
 }
 
-@keyframes .menu-btn img {
-  0% {transform:rotate(-45deg)}
-  50%{transform:rotate(-135deg)}
-  100%{transform:rotate(-225deg)}
-}
 
 
 .menu-btn img:hover {
@@ -234,7 +229,6 @@ li {
 }
 
 .user-info li:nth-child(2) > ul > li {
-    background: transparent;
     color: #000;
     margin: 4px 0;
     padding: 0;
@@ -245,8 +239,8 @@ li {
 }
 
 .user-info li:nth-child(2) > ul > li:hover {
-    background: #5FAEE3;
-    color: #fff;
+    background-color: #5FAEE3;
+    color: #5FAEE3;
 }
 
 .user-info li:nth-child(2) > ul {
@@ -487,6 +481,26 @@ svg{
 	float: right;
 	top: 1rem;
 	right: 1.5rem;
+    animation: addPlus  2s infinite ease-in-out;
+}
+
+.upload-plus:hover{
+animation-play-state: paused;
+}
+
+@keyframes addPlus {
+  0% {
+    transform:none;
+}
+  70%
+  {
+    transform:scale(1.2);
+    box-shadow: 4px 4px 30px #5FAEE3, -4px -4px 30px #5FAEE3;
+}
+  100%
+  {
+    transform: none;
+    }
 }
 
 .upload-plus input[type="file"]{
@@ -560,14 +574,13 @@ svg{
     overflow: hidden;
     transition: 1.52s;
     cursor: pointer;
-   animation: animateLogo  3s infinite ease-in-out;
 }
 
+.logo-user:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
 
-@keyframes animateLogo {
-  0% {transform:none}
-  50%{transform:scale(1.1)}
-  100%{transform: none}}
 
 .activuty-block{
 	width: 100%;
