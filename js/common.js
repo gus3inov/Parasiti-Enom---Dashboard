@@ -14,6 +14,7 @@ $(document).ready(function(){
 
 $('.items').tooltipster({
 	animation: 'slide',
+	animationDuration: 800,
 	theme: 'tooltipster-punk'
 });
 
