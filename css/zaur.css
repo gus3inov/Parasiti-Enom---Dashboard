@@ -298,8 +298,8 @@ a:hover {
 }
 
 .btn_addList:hover {
-    transition: .4s;
-    opacity: .8;
+    background: #45A4E3;
+    transition: all 0.3s;
 }
 
 body {
