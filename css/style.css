@@ -125,7 +125,17 @@ li {
 
 .menu-btn {
     position: absolute;
+    left: 61px;
+    top: 20px;
+    width: 36px;
+    height: 37px;
+    border: none;
+    outline: 0;
+    z-index: 100000000;
+    border-radius: 90%;
+    background-color: transparent;
 }
+
 
 .menu-btn img {
     width: 37px;
