@@ -228,12 +228,12 @@ $(window).scroll(function() {
 
     if ($(this).scrollTop() > 800)
     { 
-        $(".to-top__button").css("display", "block");
+        $(".to-top__button").css({"opacity": '1', "transition": "0.51s"});
 
     } 
     else 
     {
-        $(".to-top__button").css("display", "none");
+        $(".to-top__button").css({"opacity": '0', "transition": "0.51s"});
     };
 
 });
