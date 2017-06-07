@@ -395,7 +395,7 @@ li {
 
 .cloud-storage{
     width:400px;
-
+    position: relative;
     background-color: #fff;
     padding: 0;
 }
@@ -413,7 +413,16 @@ li {
     padding-left: 25px;
     font-size: 20px;
 }
-
+svg.leftsvg{
+    position: absolute;
+    left: 30px;
+    top: 150px
+}
+svg.rightsvg{
+    position: absolute;
+    left: 270px;
+    top: 290px
+}
 /*-----*/
 
 #map_popup{
