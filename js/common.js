@@ -200,16 +200,16 @@ var doughnut = new Chart(ctx, {
 
         ctx.fillText(
           chart.data.labels[0],
-          position1.x+ 45,
-          position1.y - fontSize / 2 - 180
+          position1.x + 65,
+          position1.y + 30
         );
 
         var position2 = meta.data[1].tooltipPosition();
 
         ctx.fillText(
           chart.data.labels[1],
-          position2.x,
-          position2.y - fontSize / 2 - padding
+          position2.x-75,
+          position2.y - 35
         );
         var text_inside =
           chart.data.datasets[0].data[1].toString() +
