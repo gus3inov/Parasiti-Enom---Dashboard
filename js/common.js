@@ -50,6 +50,9 @@ $('.user-info__tooltip').tooltipster({
 
 });
 
+$(".to-top__button").click(function(){
+$("body").animate({"scrollTop":0},"slow");
+});
 
 var image1 = document.getElementById('source1');
 	var image2 = document.getElementById('source2');
@@ -218,6 +221,23 @@ var doughnut = new Chart(ctx, {
   ]
 });
 // end chart-doughnut
+
+$(window).scroll(function() {
+
+    var bo = $("body").scrollTop();
+
+    if ($(this).scrollTop() > 800)
+    { 
+        $(".to-top__button").css("display", "block");
+
+    } 
+    else 
+    {
+        $(".to-top__button").css("display", "none");
+    };
+
+});
+
 
 $(window).load(function(){
 $('.items').animated("flipInY", "flipOutY");
