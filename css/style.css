@@ -598,20 +598,33 @@ svg{
 	color: #777777;
 }
 
-.form{
+.form-bottom__right__post{
 	padding: 0 25px;
 	width: 100%;
 	position: absolute;
 	background: #fff;
 }
 
-.form input[type="text"]::placeholder{
+
+.form-bottom__right__post textarea::placeholder{
 	color: #AAAAAA;
 }
 
-.form textarea::placeholder{
-	color: #AAAAAA;
-}
+.form-bottom__right__post input[type="text"]::-webkit-input-placeholder {color: #AAAAAA;}
+.form-bottom__right__post input[type="text"]::-moz-placeholder          {color: #AAAAAA;}/* Firefox 19+ */
+.form-bottom__right__post input[type="text"]:-moz-placeholder           {color: #AAAAAA;}/* Firefox 18- */
+.form-bottom__right__post input[type="text"]:-ms-input-placeholder      {color: #AAAAAA;}
+
+.form-bottom__right__post input[type="text"]:focus::-webkit-input-placeholder { transform: scale(0); transition: 1s;}
+.form-bottom__right__post input[type="text"]:focus::-moz-placeholder {transform: scale(0); transition: 1s;}/* Firefox 19+ */
+.form-bottom__right__post input[type="text"]:focus:-moz-placeholder { transform: scale(0); transition: 1s;}/* Firefox 18- */
+.form-bottom__right__post input[type="text"]:focus:-ms-input-placeholder {transform: scale(0); transition: 1s;}
+
+.form-bottom__right__post .form-text:focus::-webkit-input-placeholder { transform: scale(0); transition: 1s;}
+.form-bottom__right__post .form-text:focus::-moz-placeholder {transform: scale(0); transition: 1s;}/* Firefox 19+ */
+.form-bottom__right__post .form-text:focus:-moz-placeholder { transform: scale(0); transition: 1s;}/* Firefox 18- */
+.form-bottom__right__post .form-text:focus:-ms-input-placeholder {transform: scale(0); transition: 1s;}
+
 
 textarea, input {
 	outline: 0;
@@ -641,7 +654,7 @@ textarea, input {
 	resize: none;
 }
 
-.form input[type="submit"]{
+.form-bottom__right__post input[type="submit"]{
 	padding: 0;
 	height: 50px;
 	width: 150px;
@@ -653,7 +666,7 @@ textarea, input {
 	margin-bottom: 35px;
 }
 
-.form input[type="submit"]:hover{
+.form-bottom__right__post input[type="submit"]:hover{
 	background: #45A4E3;
 }
 
