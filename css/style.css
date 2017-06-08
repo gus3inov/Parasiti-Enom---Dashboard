@@ -405,14 +405,18 @@ li {
     height: 340px;
     margin: 0 auto;  
 }
-.cloud-storage-footer{
+.cloud-storage-footer {
     height: 94px;
     line-height: 100px;
     background-color: #5faee3;
     color: #fff;
-    padding-left: 25px;
+    padding-left: 43px;
     font-size: 20px;
+    z-index: 1000000000000000;
+    position: absolute;
+    width: 400px;
 }
+
 svg.leftsvg{
     position: absolute;
     left: 30px;
@@ -423,20 +427,19 @@ svg.rightsvg{
     left: 270px;
     top: 290px
 }
-/*-----*/
+
+#doughnut{
+    position: absolute;
+    z-index: 100000000000;
+}
+
+*-----*/
 
 #map_popup{
-    margin: 200px 100px;
-<<<<<<< HEAD
-<<<<<<< HEAD
+    margin: 400px 100px;
 }
-=======
-=======
->>>>>>> 3c7b417... Добавлена иконка)
-}
-
 #wonder-icon{
-    margin: 200px 100px;
+    margin: 200px 100px; 
 }
 
 svg{
@@ -444,7 +447,6 @@ svg{
   height: 400px;
   display: block;
   margin: 0 auto;
-<<<<<<< HEAD
 }
 
 
@@ -485,10 +487,10 @@ svg{
     height: 30px;
     }
  
-    .cloud-storage-footer i {
-    font-size: 40px;  
-    margin-left: 230px; 
-    transition: 1s;   
+.cloud-storage-footer i {
+    font-size: 40px;
+    padding-left: 214px;
+    transition: 1s;
 }
 
 

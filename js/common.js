@@ -7,10 +7,14 @@ $(document).ready(function(){
       tClose: 'Close (Esc)',
         removalDelay: 900
     });
- $('.wonder_icon').magnificPopup({
+    function popupInt(){
+    $('.wonder_icon').magnificPopup({
       tClose: 'Close (Esc)',
         removalDelay: 900
     });
+    }
+    setTimeout(popupInt, 200);
+ 
 
 $('.items').tooltipster({
 	animation: 'slide',
