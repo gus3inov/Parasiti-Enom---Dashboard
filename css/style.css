@@ -433,10 +433,8 @@ svg.rightsvg{
     z-index: 100000000000;
 }
 
-*-----*/
-
 #map_popup{
-    margin: 400px 100px;
+    margin: 800px 100px;
 }
 #wonder-icon{
     margin: 200px 100px; 
