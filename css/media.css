@@ -17,67 +17,147 @@
 
 
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-    
-.header{
-    height: 100px;
+@media only screen and (max-width : 1200px){
+
+}
+@media only screen and (max-width : 992px){
+
+
+}
+@media only screen and (max-width : 768px){
+
 }
 
-  .active {
-    padding-left: 50px;
-    text-align: center;
-    position: relative;
-    bottom: 20px;
-    right: 20px;
+@media only screen and (max-width : 480px){
+
+ 
+
+  .items{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    margin-left: 40px;
+  }  
+
+.row .diagrams{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  display: none;
+}
+
+   .tiles-item{
+    margin: 0;
+   }
+
+   .diag-none{
+    display: none;
+   }
+
+  .statistics{
+    width: 300px;
   }
 
-.user-info{
-    float: left;
+  .pushy-left{
+    -webkit-transform: translate3d(-260px, 0, 0);
+    -ms-transform: translate3d(-260px, 0, 0);
+    transform: translate3d(-260px, 0, 0);
 }
 
-.tilesOne {
-	width: 100px;
-	height: 100px;	
+.menu-btn img {
+    left: 2px;
+}
+ 
+.pushy {
+    background-color: #2C3E50;
+    width: 280px;
 }
 
-.tileTwo {
-	width: 100px;
-	height: 100px;	
+.form-bottom__right{
+  width: 320px;
+  margin-left: 23px;
 }
 
-
+.form-bottom__left{
+  width: 320px;
+  margin-left: 37px;
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
+.wallpaper-user{
+  width: 320px
 }
 
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
+.add-list{
+  width: 320px
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
+.chec_container{
+  margin: 0;
+  width: 320px;
+  margin-left: 20px;
+  height: 360px;
+  margin-bottom: 40px;
 }
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
+.beetwen_text {
+     margin-top: 0; 
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
+.text__container {
+    width: 0; 
+    height: 410px;
 }
 
- /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+.text-content{
+  margin: 0;
+  width: 320px;
+  height: 360px;
+  margin-bottom: 40px;
+}
+
+.cen_container{
+    margin: 0;
+  width: 320px;
+  margin-left: 20px;
+  height: 320px;
+  margin-bottom: 70px;
+}
+
+.radio span {
+    position: relative;
+    left: 27px;
+    top: -21px;
+}
+
+.activuty-user{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  padding: 0;
+}
+
+}
+@media only screen and (min-width : 320px){
+
+}
+@media only screen and (min-width : 480px){
+
+}
+@media only screen and (min-width : 768px){
+  
+}
+@media only screen and (min-width : 992px){
+
+}
+@media only screen and (min-width : 1200px){
 
 }
