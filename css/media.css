@@ -53,17 +53,60 @@
   display: none;
 }
 
+#myChart{
+      height: 435px;
+    width: 325px;
+}
+
+
+.caption{
+  margin-top: 20px;
+}
    .tiles-item{
     margin: 0;
+    height: 256px;
+    width: 276px;
    }
 
-   .diag-none{
-    display: none;
-   }
+   .cloud-storage {
+    width: 328px;
+    margin-bottom: 0px;
+    position: relative;
+    background-color: #fff;
+    padding: 0;
+    margin-left: 32px;
+}
+
+.cloud-storage-footer {
+    height: 64px;
+    line-height: 70px;
+    width: 328px;
+}
+
+.cloud-storage-footer i {
+    padding-left: 114px;
+}
+
+  
+  svg {
+     width: 0;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
 
   .statistics{
-    width: 300px;
+    width: 325px;
+        margin-left: 32px;
+
   }
+
+  .diagrams {
+    margin-top: 55px;
+    margin-right: 30px;
+    width: 0; 
+    height: 510px;
+}
 
   .pushy-left{
     -webkit-transform: translate3d(-260px, 0, 0);
@@ -100,6 +143,7 @@
 
 .chec_container{
   margin: 0;
+      margin-top: 580px;
   width: 320px;
   margin-left: 20px;
   height: 360px;
@@ -144,6 +188,22 @@
   display: flex;
   padding: 0;
 }
+
+.header .active {
+     margin: 0  ; 
+     padding: 0; 
+     width: 0;
+    float: left;
+}
+
+.user-info {
+
+    left: 10px;
+}
+
+.to-top__button i {
+    left: 300px;
+  }
 
 }
 @media only screen and (min-width : 320px){
