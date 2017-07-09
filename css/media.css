@@ -8,6 +8,68 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+.big_iconsContainer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 40px;
+  }  
+ 
+ .tiles-item{
+    margin: 0;
+    height: 256px;
+    width: 276px;
+   }
+
+
+.chec_container{
+      margin-top: 580px;
+
+}
+
+.cloud_Container{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    -ms-align-self: auto;
+  align-self: auto;
+}
+
+.form-bottom__left{
+  margin: 0;
+  width: 100%;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.wallpaper-user {
+    width: 100%;
+  }
+
+.form-bottom__right__post{
+  width: 100%;
+  margin: 0;
+}
+
+.form-bottom__title{
+  width: 100%;
+}
+
+.text__container{
+  order: 3;
+  -ms-align-self: auto;
+  align-self: auto;
+}
+
 }
 
 /* Small Devices, Tablets */
@@ -25,6 +87,191 @@
 
 }
 @media only screen and (max-width : 768px){
+
+
+  .items{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    margin-left: 40px;
+  }  
+
+.row .diagrams{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  display: none;
+}
+
+#myChart{
+    width: 365px;
+}
+
+
+.cloud_Container{
+display: block;
+}
+  
+.caption{
+  margin-top: 20px;
+}
+   .tiles-item{
+    margin: 0;
+    height: 256px;
+    width: 276px;
+   }
+
+   .cloud-storage {
+    width: 368px;
+    margin-bottom: 0px;
+    position: relative;
+    background-color: #fff;
+    padding: 0;
+    margin-left: 90px;
+}
+
+.cloud-storage-footer {
+    height: 64px;
+    line-height: 70px;
+    width: 368px;
+}
+
+.cloud-storage-footer i {
+    padding-left: 114px;
+}
+
+  
+  svg {
+     width: 0;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+  .statistics{
+    width: 470px;
+    margin-left: 40px;
+
+  }
+
+  .diagrams {
+    margin-top: 55px;
+    margin-right: 30px;
+    width: 0; 
+    height: 510px;
+}
+
+  .pushy-left{
+    -webkit-transform: translate3d(-260px, 0, 0);
+    -ms-transform: translate3d(-260px, 0, 0);
+    transform: translate3d(-260px, 0, 0);
+}
+
+.menu-btn img {
+    left: 2px;
+}
+ 
+.pushy {
+    background-color: #2C3E50;
+    width: 280px;
+}
+
+.form-bottom__right{
+  width: 500px;
+  margin-left: 23px;
+}
+
+.form-bottom__left{
+  width: 500px;
+  margin-left: 37px;
+}
+
+.wallpaper-user{
+  width: 500px;
+}
+
+.add-list{
+  width: 360px;
+}
+
+.chec_container{
+  margin: 0;
+      margin-top: 580px;
+  width: 360px;
+  margin-left: 90px;
+  height: 360px;
+  margin-bottom: 40px;
+}
+
+.beetwen_text {
+     margin-top: 0; 
+}
+
+.text__container {
+    width: 0; 
+    margin-left: 90px;
+    height: 410px;
+}
+
+.text-content{
+  margin: 0;
+  width: 360px;
+  height: 360px;
+  margin-bottom: 40px;
+}
+
+.cen_container{
+    margin: 0;
+  width: 360px;
+  margin-left: 90px;
+  height: 360px;
+  margin-bottom: 70px;
+}
+
+.radio span {
+    position: relative;
+    left: 27px;
+    top: -21px;
+}
+
+.activuty-user{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  padding: 0;
+}
+
+.btn_map {
+    text-align: right;
+    padding: 12px;
+    color: white;
+    background: #5faee3;
+}
+
+.header .active {
+     margin: 0  ; 
+     padding: 0; 
+     width: 0;
+    float: left;
+}
+
+.user-info {
+
+    left: 10px;
+}
+
+.to-top__button i {
+    left: 300px;
+  }
 
 }
 
@@ -59,6 +306,10 @@
 }
 
 
+.cloud_Container{
+display: block;
+}
+  
 .caption{
   margin-top: 20px;
 }
@@ -69,7 +320,7 @@
    }
 
    .cloud-storage {
-    width: 328px;
+    width: 370px;
     margin-bottom: 0px;
     position: relative;
     background-color: #fff;
@@ -80,11 +331,11 @@
 .cloud-storage-footer {
     height: 64px;
     line-height: 70px;
-    width: 328px;
+    width: 370px;
 }
 
 .cloud-storage-footer i {
-    padding-left: 114px;
+    padding-left: 160px;
 }
 
   

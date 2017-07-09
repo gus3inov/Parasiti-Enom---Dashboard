@@ -37,6 +37,10 @@ a {
     padding: 0;
 }
 
+.marginTop{
+    margin-top: 20px;
+}
+
 .pushy-left h3 {
     font-family: Pacifico-Regular;
     font-size: 25px;
@@ -1081,4 +1085,11 @@ body {
 
 .cloud_Container {
     justify-content: space-between;
+}
+
+svg {
+    width: 0;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
 }
