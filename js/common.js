@@ -255,3 +255,4 @@ $('.text__container').animated("slideInLeft", "slideOutRight");
 $('.form-bottom__left').animated("zoomIn", "slideOutRight");
 $('.form-bottom__right').animated("zoomIn", "slideOutRight");
 });
+

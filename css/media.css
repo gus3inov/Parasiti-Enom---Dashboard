@@ -40,8 +40,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-    -ms-align-self: auto;
-  align-self: auto;
 }
 
 .form-bottom__left{
@@ -235,7 +233,7 @@ display: block;
   margin-bottom: 70px;
 }
 
-.radio span {
+.checkbox span {
     position: relative;
     left: 27px;
     top: -21px;
@@ -277,7 +275,7 @@ display: block;
 
 @media only screen and (max-width : 480px){
 
- 
+
 
   .items{
     display: -webkit-flex;
@@ -288,7 +286,7 @@ display: block;
     flex-direction: column;
     -ms-align-items: center;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 0;
   }  
 
 .row .diagrams{
@@ -319,8 +317,10 @@ display: block;
     width: 276px;
    }
 
+
+
    .cloud-storage {
-    width: 370px;
+    width: 330px;
     margin-bottom: 0px;
     position: relative;
     background-color: #fff;
@@ -331,7 +331,7 @@ display: block;
 .cloud-storage-footer {
     height: 64px;
     line-height: 70px;
-    width: 370px;
+    width: 330px;
 }
 
 .cloud-storage-footer i {
@@ -407,6 +407,7 @@ display: block;
 
 .text__container {
     width: 0; 
+    margin-left: 20px;
     height: 410px;
 }
 
@@ -425,7 +426,7 @@ display: block;
   margin-bottom: 70px;
 }
 
-.radio span {
+.checkbox span {
     position: relative;
     left: 27px;
     top: -21px;
