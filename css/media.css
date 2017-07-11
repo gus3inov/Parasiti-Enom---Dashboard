@@ -26,20 +26,52 @@
     width: 276px;
    }
 
+.cloud-storage {
+    margin-top: 30px;
+  }
+
+  .cen_container{
+    margin-left: 30px;
+  }
 
 .chec_container{
-      margin-top: 580px;
+      margin-top: 480px;
+
 
 }
 
+.text__container{
+  margin-top: 100px;
+  margin-left: 0;
+}
+
 .cloud_Container{
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+ display: -webkit-flex;
+ display: -moz-flex;
+ display: -ms-flex;
+ display: -o-flex;
+ display: flex;
+}
+
+.caption {
+    padding-left: 25px;
+    line-height: 55px;
+    font-size: 18px;
+    color: #777777;
+    height: 56px;
+    background-color: #e5e5e5;
+}
+
+.cloud-storage-footer {
+    height: 59px;
+    line-height: 66px;
+    background-color: #5faee3;
+    color: #fff;
+    padding-left: 43px;
+    font-size: 20px;
+    z-index: 1000000000000000;
+    position: absolute;
+    width: 400px;
 }
 
 .form-bottom__left{
@@ -62,11 +94,6 @@
   width: 100%;
 }
 
-.text__container{
-  order: 3;
-  -ms-align-self: auto;
-  align-self: auto;
-}
 
 }
 
@@ -313,14 +340,16 @@ display: block;
 }
    .tiles-item{
     margin: 0;
-    height: 256px;
-    width: 276px;
+    height: 226px;
+    width: 256px;
    }
 
-
+#doughnut{
+  width: 301px !important;
+}
 
    .cloud-storage {
-    width: 330px;
+    width: 300px;
     margin-bottom: 0px;
     position: relative;
     background-color: #fff;
@@ -331,11 +360,11 @@ display: block;
 .cloud-storage-footer {
     height: 64px;
     line-height: 70px;
-    width: 330px;
+    width: 300px;
 }
 
 .cloud-storage-footer i {
-    padding-left: 160px;
+    padding-left: 90px;
 }
 
   
@@ -347,7 +376,7 @@ display: block;
 }
 
   .statistics{
-    width: 325px;
+    width: 300px;
         margin-left: 32px;
 
   }
