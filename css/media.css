@@ -20,6 +20,10 @@
     margin-left: 40px;
   }  
  
+.diagrams {
+    width: 0;
+}
+
  .tiles-item{
     margin: 0;
     height: 256px;
