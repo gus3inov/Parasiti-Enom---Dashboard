@@ -444,13 +444,6 @@ svg.rightsvg{
     margin: 200px 100px; 
 }
 
-svg{
-  width: 1000px;
-  height: 400px;
-  display: block;
-  margin: 0 auto;
-}
-
 
 .sf-menu li {background-color: transparent !important;}
 
